@@ -1,10 +1,38 @@
 import React from 'react'
+import "./style.css"
 
 export default function Home() {
   return (
-    <div className="Home">
-        <h1>Welcome to the bucket list app</h1>
-        <h2>Fun "fact": the term "bucket list" is generally accepted to have been created by that Morgan Freeman movie of the same name</h2>
+    <div className="home">
+      <ul className='music'>
+        <li>
+          <p>first song</p>
+          {/* <div id="bars">
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </div> */}
+        </li>
+        <li>
+          <p>second song</p>
+        </li>
+        <li>
+          <p>third song</p>
+        </li>
+        <li>
+          <p>forth song</p>
+        </li>
+        <li>
+          <p>fifth song</p>
+        </li>
+      </ul>
     </div>
   )
 }

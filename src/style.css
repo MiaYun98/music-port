@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    background-color: #231f20;
+    color: lightgray;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.App {
+    display: flex;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
