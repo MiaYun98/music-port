@@ -1,36 +1,38 @@
-import React from 'react'
+import {React, useState, useEffect} from 'react'
 import "./style.css"
+import FirstSong from "../../assets/1.jpg"
 
 export default function Home() {
+  const [titleSong, setTitleSong] = useState("")
+  const [play, setPlay] = useState("false")
+
+  const musichandle = (e) => {
+    console.log("click")
+    console.log(e.target)
+  }
+
   return (
-    <div className="home">
+    <div className="home container">
       <ul className='music'>
-        <li>
-          <p>first song</p>
-          {/* <div id="bars">
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
-          </div> */}
+        <li className='card' onClick={musichandle}>
+          <img src={FirstSong}/>
+          <p>Pristellium</p>
         </li>
-        <li>
-          <p>second song</p>
+        <li className='card'>
+          <img src={FirstSong}/>
+          <p>Pristellium</p>
         </li>
-        <li>
-          <p>third song</p>
+        <li className='card'>
+          <img src={FirstSong}/>
+          <p>Pristellium</p>
         </li>
-        <li>
-          <p>forth song</p>
+        <li className='card'>
+          <img src={FirstSong}/>
+          <p>Pristellium</p>
         </li>
-        <li>
-          <p>fifth song</p>
+        <li className='card'>
+          <img src={FirstSong}/>
+          <p>Pristellium</p>
         </li>
       </ul>
     </div>

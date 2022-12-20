@@ -1,9 +1,22 @@
+
 .navbar { 
     margin: 40px;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.navbar img {
+.pic {
     width: 200px;
     height: 200px;
     border-radius: 100px;
+}
+
+.sns {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    border-top: 1px solid lightgray;
+}
+
+.sns img{
+    width: 50px;
 }
