@@ -8,18 +8,18 @@ export default function Navbar () {
     return (
         <div className="navbar">
             <a href="/"><img className="pic" src={Picture} alt="ris's picture"/></a>
-            <h1>Chris Han</h1>
-            <h2>About</h2>
+            <a href="/"><h1>Chris Han</h1></a>
+            <a href="/about"><h2>About</h2></a>
             <h2>Contact</h2>
             <ul className="sns"> 
                 <li>
-                    <a href="https://soundcloud.com/user-156586152"><img src={SoundCloud}/></a>
+                    <a href="https://soundcloud.com/user-156586152" target="_blank"><img src={SoundCloud}/></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/zyprxy"><img src={Tiwtter}/></a>
+                    <a href="https://twitter.com/zyprxy" target="_blank"><img src={Tiwtter}/></a>
                 </li>
                 <li>
-                    <a href="#"><img src={Gmail}/></a>
+                    <a href="#" target="_blank"><img src={Gmail}/></a>
                 </li>
             </ul>
         </div>

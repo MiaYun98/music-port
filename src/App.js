@@ -8,6 +8,7 @@ import "./style.css"
 
 // style
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle"
+import About from "./pages/About";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           {/* Home route */}
           <Route path="/" element={<Home />}></Route>
           {/* About route */}
+          <Route path="about" element={<About/>}></Route>
           {/* Contact route? */}
         </Routes>
       </Router>
