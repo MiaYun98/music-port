@@ -32,3 +32,17 @@ p {
     margin-left: 30px;
     background-color: transparent;
 }
+
+a {
+    text-decoration: none;
+}
+
+.playback {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.playtitle{
+    background-color: transparent;
+    color: #231f20;
+}
