@@ -5,10 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"
 import Navbar from "./components/navbar";
 import "./style.css"
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 // style
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle"
-import About from "./pages/About";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           {/* About route */}
           <Route path="about" element={<About/>}></Route>
           {/* Contact route? */}
+          <Route path="contact" element={<Contact/>}></Route>
         </Routes>
       </Router>
     </div>
