@@ -3,8 +3,9 @@ import "./style.css"
 
 export default function Contact () {
     return (
-        <div className="about">
-            <p>about part</p>
+        <div className="contact">
+            <h1>contact information</h1>
+            <p>SoundCloud</p>
         </div>
     )
 }
