@@ -4,7 +4,9 @@ import "./style.css"
 export default function About () {
     return (
         <div className="about">
-            <p>about part</p>
+            <h1>Chris Han</h1>
+            <h2>Education</h2>
+            <p>University of Washington</p>
         </div>
     )
 }
