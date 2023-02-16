@@ -10,7 +10,7 @@ export default function Navbar () {
             <a href="/"><img className="pic" src={Picture} alt="ris's picture"/></a>
             <a href="/"><h1>Chris Han</h1></a>
             <a href="/about"><h2>About</h2></a>
-            <h2>Contact</h2>
+            <a href="/contact"><h2>Contact</h2></a>
             <ul className="sns"> 
                 <li>
                     <a href="https://soundcloud.com/user-156586152" target="_blank"><img src={SoundCloud}/></a>

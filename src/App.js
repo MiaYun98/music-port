@@ -23,7 +23,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           {/* About route */}
           <Route path="about" element={<About/>}></Route>
-          {/* Contact route? */}
+          {/* Contact route */}
           <Route path="contact" element={<Contact/>}></Route>
         </Routes>
       </Router>
