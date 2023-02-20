@@ -1,6 +1,7 @@
 import {React, useState, useEffect} from 'react'
 import "./style.css"
 import FirstSong from "../../assets/1.jpg"
+import SecondSong from "../../assets/Eleutheromania.png"
 
 export default function Home() {
   const [titleSong, setTitleSong] = useState("")
@@ -42,8 +43,8 @@ export default function Home() {
           <a className='titleLink'href='https://soundcloud.com/user-156586152/4icfvetcbmfw?si=245f258297a64030afffdb057e40b136&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing' target='_blank'><p className='titlepart'>Pristellium</p></a>
         </li>
         <li className='card'>
-          <img src={FirstSong} onClick={musichandle}/>
-          <a className='titleLink'href='https://soundcloud.com/user-156586152/4icfvetcbmfw?si=245f258297a64030afffdb057e40b136&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing' target='_blank'><p className='titlepart'>Pristellium</p></a>
+          <img src={SecondSong} onClick={musichandle}/>
+          <a className='titleLink'href='https://soundcloud.com/0xalis/eleutheromania' target='_blank'><p className='titlepart'>Eleutheromania</p></a>
         </li>
         <li className='card'>
           <img src={FirstSong} onClick={musichandle}/>
