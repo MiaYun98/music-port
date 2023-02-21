@@ -7,7 +7,7 @@ export default function Contact () {
             <h1>Contact Information </h1>
             {/* should be in a a tag that can direct to the link */}
             <a><p>SoundCloud</p></a>
-            <p>Gamail</p>
+            <p>Gmail</p>
             <p>SoundCloud</p>
             <p>SoundCloud</p>
         </div>
