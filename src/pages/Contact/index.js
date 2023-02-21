@@ -4,7 +4,10 @@ import "./style.css"
 export default function Contact () {
     return (
         <div className="contact">
-            <h1>If you have any question Contact through: </h1>
+            <h1>Contact Information </h1>
+            <p>SoundCloud</p>
+            <p>SoundCloud</p>
+            <p>SoundCloud</p>
             <p>SoundCloud</p>
         </div>
     )
