@@ -13,7 +13,7 @@ export default function Navbar () {
             <a href="/contact"><h2>Contact</h2></a>
             <ul className="sns"> 
                 <li>
-                    <a href="https://soundcloud.com/user-156586152" target="_blank"><img src={SoundCloud}/></a>
+                    <a href="https://soundcloud.com/0xalis" target="_blank"><img src={SoundCloud}/></a>
                 </li>
                 <li>
                     <a href="https://twitter.com/zyprxy" target="_blank"><img src={Tiwtter}/></a>
